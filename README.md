@@ -1,4 +1,4 @@
-Step 1: Upload Your Data 📂
+**Step 1: Upload Your Data 📂**
 First, you need to provide the data you want to analyze.
 
 When you first launch the app, you will be on the welcome page. Look at the sidebar on the left.
@@ -10,7 +10,7 @@ Click the "Browse files" button and select an .xlsx or .csv file from your compu
 Once uploaded, you will see a success message and a preview of the first few rows of your data.
 
 
-Step 2: Visualize and Explore Your Data 📊
+**Step 2: Visualize and Explore Your Data 📊**
 Before building a model, it's important to understand your data.
 
 On the same "Data Upload and Visualization" page, scroll down to the "Data Visualization" section.
@@ -22,7 +22,7 @@ Select the columns you want to plot on the X-axis and Y-axis.
 The chart will automatically update. You can try different combinations to find interesting patterns or relationships in your data.
 
 
-Step 3: Configure Your Machine Learning Model ⚙️
+**Step 3: Configure Your Machine Learning Model ⚙️**
 Now you're ready to set up the model.
 
 In the sidebar on the left, navigate to the "Model Training and Explanation" page.
@@ -40,7 +40,7 @@ Test Set Size (%): This slider determines how much of your data is held back to 
 Select Model: Choose the specific algorithm you want to use (e.g., Random Forest).
 
 
-Step 4: Train the Model and See Performance 🚀
+**Step 4: Train the Model and See Performance 🚀**
 Once your model is configured, it's time to train it.
 
 After setting all the parameters in the sidebar, click the blue "Train Model" button.
@@ -50,7 +50,7 @@ The app will process the data and train the model. You will see a "Model trained
 Below that, in the "Model Performance" section, you will see key metrics like Accuracy (for classification) or R-squared (for regression) that tell you how well your model performed on the test data.
 
 
-Step 5: Explain a Specific Prediction 🧠
+**Step 5: Explain a Specific Prediction 🧠**
 This is the most powerful part of the app. You can ask the model why it made a certain prediction.
 
 Scroll down to the "Model Explanation with LIME" section.
@@ -63,5 +63,8 @@ A chart and a text explanation will appear, breaking down the model's reasoning 
 
 If you encounter the ValueError message here, it means one of your feature columns has no variety in the training data. Simply go back to the sidebar, uncheck that problematic column from your features, and train the model again.
 
-Web app is live at 
+
+
+
+**Web app is live at **
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://krishlime.streamlit.app/)
